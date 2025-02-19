@@ -1,0 +1,6 @@
+# cook your dish here
+def can_get_full_score(x,y):
+    max_possible = x+(10*y)
+    return "YES" if max_possible>=100 else "NO"
+x,y = map(int,input().split())
+print(can_get_full_score(x,y))
